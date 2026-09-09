@@ -4,16 +4,16 @@ from pyscript import display, document
 def createorder(e):
     document.getElementById("output").innerHTML = ""
 
-    c1 = document.getElementById("pizza1")
-    c2 = document.getElementById("pizza2")
-    c3 = document.getElementById("pizza3")
-    c4 = document.getElementById("pizza4")
+    a1 = document.getElementById("pizza1")
+    a2 = document.getElementById("pizza2")
+    a3 = document.getElementById("pizza3")
+    a4 = document.getElementById("pizza4")
  
 
-    p1 = float(c1.value) * int(c1.checked)
-    p2 = float(c2.value) * int(c2.checked)
-    p3 = float(c3.value) * int(c3.checked)
-    p4 = float(c4.value) * int(c4.checked)
+    p1 = float(a1.value) * int(a1.checked)
+    p2 = float(a2.value) * int(a2.checked)
+    p3 = float(a3.value) * int(a3.checked)
+    p4 = float(a4.value) * int(a4.checked)
     
     subtotal = round(p1 + p2 + p3 + p4)
     vat = round(subtotal * 0.12)
