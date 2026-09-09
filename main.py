@@ -1,4 +1,4 @@
-#the calculating part of the skills test
+
 from pyscript import display, document
 
 def createorder(e):
